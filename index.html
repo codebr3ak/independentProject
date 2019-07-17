@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Independent project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+            <div class="jumbotron">
+        <h1>Akan Name</h1>
+</div>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="usr">Names:</label><br>
+      <input type="text" class="form-control" id="usr" name="Name">
+    </div>
+  </form>
+
+    <form>
+      <h2>Gender</h2>
+    <input type="radio" name="Gender" value="Male">
+    Male<br>
+    <input type="radio" name="Gender" value="Female">
+    female
+  </form>
+  <form>
+    <h3>Date</h3>
+    <input type="date" id="send" oninput="result.value = send.value">
+    <input type="text" id="result">
+  </form> 
+  <br>
+   <button type="submit" class="btn btn-primary">Submit</button>
+   <button class="btn btn-danger" type="button">Cancel</button> 
+    </div>
+</body>
+</html>
