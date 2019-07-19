@@ -10,8 +10,7 @@ var c =(yyyy-1)/100+1;
 var cc = parseFloat(c);
 var day = parseFloat(( ((cc/4) -2*cc-1) + ((5*yyyy/4)) + ((26*(mm+1)/10)) + dd )) % 7;
 day = day.toFixed(0);
-
-
+var days =['sunday','monday','tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 document.getElementById('akan').innerHTML=akan;
 if (input='' && gender==''){
     alert("enter values for akan");
