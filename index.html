@@ -7,6 +7,7 @@
     <title>Independent project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+   
 
 </head>
 
@@ -14,35 +15,34 @@
     <div class="container">
             <div class="jumbotron">
         <h1>Akan Name</h1>
-        <p>This application will tell you the day you were born </p>
+        <p>This application will tell you the day you were born <br>
+       It displays the name of your day</p>
 </div>
-  <form action="/action_page.php">
+  <form>
     <div class="form-group">
       <label for="usr">Names:</label><br>
       <input type="text" class="form-control" id="usr" name="Name">
     </div>
-  </form>
+ 
 
-    <form>
       <h2>Gender</h2>
     <input type="radio" name="Gender" value="Male">
     Male<br>
     <input type="radio" name="Gender" value="Female">
-    female
-  </form>
-
-  <form>
+    Female
+    
 <div class="form">
     <h3>Date of Birth</h3>
-    <input type="date" id="send" oninput="result.value = send.value">
-    <input type="text" id="result">
+    <input type="date" id="result" name="date">
   </div>
   </form> 
+  <div class="form-group">
+   <label for="akan">Your akanName is:<p id="akan"></p></label>
+  </div>
   <br>
-  <form colspan="4" id="input label">akan name</form>
-   <button type="submit" class="btn btn-primary">Submit</button>
+   <button type="submit" id="akanN" class="btn btn-primary" onclick="akanName()">Submit</button>
    <button class="btn btn-danger" type="button">Cancel</button> 
-    </div>  
-   <script src="main.js"></script>
+  </div> 
+  <script src="main.js"></script>
 </body>
 </html>
