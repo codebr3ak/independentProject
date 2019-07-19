@@ -13,7 +13,11 @@ day = day.toFixed(0);
 
 document.getElementById('akan').innerHTML=akan;
  if (input='' && gender==''){
-     alert("enter values for akan");
+   
+document.getElementById('akan').innerHTML=akan;
+if (input='' && gender==''){
+    alert("enter values for akan");
+}  alert("enter values for akan");
  }
 
 else if(day == 0 && gender == "Male"){
