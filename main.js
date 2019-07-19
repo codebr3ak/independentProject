@@ -11,14 +11,12 @@ var cc = parseFloat(c);
 var day = parseFloat(( ((cc/4) -2*cc-1) + ((5*yyyy/4)) + ((26*(mm+1)/10)) + dd )) % 7;
 day = day.toFixed(0);
 
-document.getElementById('akan').innerHTML=akan;
- if (input='' && gender==''){
-   
+
 document.getElementById('akan').innerHTML=akan;
 if (input='' && gender==''){
     alert("enter values for akan");
  }
- }
+ 
 else if(day == 0 && gender == "Male"){
 document.getElementById("akan").innerHTML = "kwasi";
 }

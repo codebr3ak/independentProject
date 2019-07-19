@@ -12,3 +12,11 @@
 .form-group{
     width:40%;
 }
+#akan{
+    width: 40%;
+    text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  
+}
