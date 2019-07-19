@@ -16,6 +16,7 @@
   color: white;
   display: inline-block;
   font-weight: bolder;
+  font-style: normal;
 }
 #akan:hover{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);

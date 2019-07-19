@@ -6,7 +6,7 @@ mm = d.getMonth();
 mm = mm+1;
 dd = d.getDate();
 var gender= document.querySelector('input[name="Gender"]:checked').value;
-var c = (yyyy-1)/100 + 1;
+var c =(yyyy-1)/100+1;
 var cc = parseFloat(c);
 var day = parseFloat(( ((cc/4) -2*cc-1) + ((5*yyyy/4)) + ((26*(mm+1)/10)) + dd )) % 7;
 day = day.toFixed(0);
