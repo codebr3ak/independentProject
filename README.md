@@ -1,19 +1,19 @@
-#Project Name:
+# {Project Name}:
 Akan Name Independent project
 {This is an application that helps you to know the day of your birth and the name of your akan} {19th,July,2019}
-##Project description:
+## Project description:
 {This application will tell you the day you were born 
 It displays the name of your day. 
 The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name. 
 This application will help you know the day of your birth and the name you would be called if you were born in Ghana. 
 If you submit the application will dislay your akan name and the check in the table the day of your birth according to your akan Name.}
 
-##Authors information:
+## Authors information:
 Names : Umuhire evelyne
 GithubAccount: Evelyne250
 Tel:0783985988
 
-###Setup instructions: 
+### Setup instructions: 
 
 A github account 
 a repository on github account 
@@ -22,18 +22,18 @@ bootstrap and styles css to style the html file
 use of javascript for the application to be responsive
 github pages
 
-##What I Used
+## What I Used
 {Making this website i used html and css and javascript only made use of div, h, p, br, form, tables and more tags, But to make my website look good as it is I used Bootstrap and some other properties to style it as it is and i added input, labels and javascript to make my project responsive}
 
-####contact details
+#### contact details
 tel: 0783985988
 githubAccount: Evelyne250
 Email: uevelyne44@gmail.com
 Wecode Rwanda
-####The link to my website gh-pages:
+#### The link to my website gh-pages:
+https://evelyne250.github.io/independentProject/
 
-
-####License
+#### License
 MIT License
 
 Copyright (c) [2019] [Evelyne250]
