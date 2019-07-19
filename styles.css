@@ -3,11 +3,8 @@
      background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  
+  box-sizing: border-box;
 
-}
-.form input{
-    width:28%;
 }
 .form-group{
     width:40%;
