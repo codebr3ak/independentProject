@@ -17,51 +17,50 @@ document.getElementById('akan').innerHTML=akan;
 document.getElementById('akan').innerHTML=akan;
 if (input='' && gender==''){
     alert("enter values for akan");
-}  alert("enter values for akan");
  }
-
+ }
 else if(day == 0 && gender == "Male"){
-document.getElementById("akan").innerHTML = "you were born on Sunday your name is kwasi";
+document.getElementById("akan").innerHTML = "kwasi";
 }
 else if(day == 1 && gender == "Male"){
-    document.getElementById("akan").innerHTML = "you were born on Monday your name is Kwadwo";
+    document.getElementById("akan").innerHTML = "Kwadwo";
 }
 else if(day == 2 && gender == "Male"){
-    document.getElementById("akan").innerHTML = "you were born on Tuesday your name is kwabena";
+    document.getElementById("akan").innerHTML = "kwabena";
 }
 else if(day == 3 && gender == "Male"){
-    document.getElementById("akan").innerHTML = "you were born on Wednesday your name is Kwaku";
+    document.getElementById("akan").innerHTML = "Kwaku";
 }
 else if(day == 4 && gender == "Male"){
-    document.getElementById("akan").innerHTML = "you were born on Thursday your name is Yaw";
+    document.getElementById("akan").innerHTML = "Yaw";
 }
 else if(day == 5 && gender == "Male"){
-    document.getElementById("akan").innerHTML = "you were born on Friday your name is Kofi";
+    document.getElementById("akan").innerHTML = "Kofi";
 }
 else if(day == 6 && gender == "Male"){
-    document.getElementById("akan").innerHTML = "you were born on Saturday your name is Kwame";
+    document.getElementById("akan").innerHTML = "Kwame";
 }
 else if(day == 0 && gender == "Female"){
-    document.getElementById("akan").innerHTML = "you were born on Sunday your name is Akosua";
+    document.getElementById("akan").innerHTML = "Akosua";
 }
 else if(day == 1 && gender == "Female"){
-    document.getElementById("akan").innerHTML = "you were born on Monday your name is Adwoa";
+    document.getElementById("akan").innerHTML = "Adwoa";
 }
 else if(day == 2 && gender == "Female"){
-    document.getElementById("akan").innerHTML = "you were born on Tuesday your name is Abenaa";
+    document.getElementById("akan").innerHTML = "Abenaa";
 }
 else if(day == 3 && gender == "Female"){
-    document.getElementById("akan").innerHTML = "you were born on Wednesday your name is Akua";
+    document.getElementById("akan").innerHTML = "Akua";
 }
 else if(day == "4" && gender == "Female"){
-    document.getElementById("akan").innerHTML = "you were born on Thursday your name is Yaa";
+    document.getElementById("akan").innerHTML = "Yaa";
    
 }
 else if(day == 5 && gender == "Female"){
-    document.getElementById("akan").innerHTML = "you were born on Friday your name is Afua";
+    document.getElementById("akan").innerHTML = "Afua";
 }
 else if(day == 6 && gender == "Female"){
-    document.getElementById("akan").innerHTML = "you were born on Saturday your name is Ama";
+    document.getElementById("akan").innerHTML = "Ama";
 }
 
 }
